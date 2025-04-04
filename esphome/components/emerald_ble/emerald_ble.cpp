@@ -137,8 +137,7 @@ void Emerald::decode_emerald_packet_(const uint8_t *data, uint16_t length) {
       case RETURN_EVERY30S_POWER_CONSUMPTION_CMD: {
         break;
       }
-      case RETURN_IMPULSE_CMD: {
-                ESP_LOGI(TAG, "Single Impulse Returned!"); //Note this is not used in any other part of the code.
+      case RETURN_IMPULSE_CMD: {                
         break;
       }
       case RETURN_PAIRING_CODE_CMD: {
